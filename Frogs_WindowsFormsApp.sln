@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frogs_WindowsFormsApp", "Frogs_WindowsFormsApp\Frogs_WindowsFormsApp.csproj", "{70853BB2-F5D4-48A7-9979-620E564EBABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70853BB2-F5D4-48A7-9979-620E564EBABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70853BB2-F5D4-48A7-9979-620E564EBABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70853BB2-F5D4-48A7-9979-620E564EBABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70853BB2-F5D4-48A7-9979-620E564EBABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA423E13-ACFF-485C-89E3-AD204E9101EC}
+	EndGlobalSection
+EndGlobal
