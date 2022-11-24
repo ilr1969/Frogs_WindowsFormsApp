@@ -63,6 +63,7 @@ namespace Frogs_WindowsFormsApp
             this.Name = "Message";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Игра окончена!";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Message_FormClosed);
             this.Load += new System.EventHandler(this.Message_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

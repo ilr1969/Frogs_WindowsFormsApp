@@ -40,6 +40,7 @@ namespace Frogs_WindowsFormsApp
             this.emptyPictureBox = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.scoreLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.rightPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightPictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.rightPictureBox3)).BeginInit();
@@ -160,12 +161,24 @@ namespace Frogs_WindowsFormsApp
             this.scoreLabel.TabIndex = 10;
             this.scoreLabel.Text = "0";
             // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(700, 127);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(188, 35);
+            this.button1.TabIndex = 11;
+            this.button1.Text = "Перезапустить игру";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(900, 179);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.scoreLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.emptyPictureBox);
@@ -208,6 +221,7 @@ namespace Frogs_WindowsFormsApp
         private System.Windows.Forms.PictureBox emptyPictureBox;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.Label scoreLabel;
+        private System.Windows.Forms.Button button1;
     }
 }
 

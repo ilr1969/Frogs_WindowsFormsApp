@@ -23,5 +23,10 @@ namespace Frogs_WindowsFormsApp
                 resultLabel.Text = $"Вы победили, количество ходов - {Result}, но можно было справиться за 24!";
             }
         }
+
+        private void Message_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }

@@ -42,5 +42,10 @@ namespace Frogs_WindowsFormsApp
                 MessageBox.Show("Такой ход недопустим!");
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Restart();
+        }
     }
 }
